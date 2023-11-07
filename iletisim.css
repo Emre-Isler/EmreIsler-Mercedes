@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hr1, #hr2, #hr3{
+    height: 1px;
+    background-color: #b99891
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* header bölümü */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+}
+
+.farimg{
+    margin: auto;
+}
+
+.farimg img{
+    border-radius: 50%;
+    height: 220px;
+}
+
+
+/* nav bar */
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 120px;
+    background-color:#374467;
+}
+
+nav h1{
+   color: #b99891;
+}
+
+/* main bölümü */
+
+main{
+    color: white;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sol{
+    margin-top: 50px;
+    height: 80%;
+    width: 50%;
+    border-right: 1px solid gray;
+
+}
+
+.solic{
+    padding-left: 10%;
+}
+
+.sag{
+    padding-right: 5%;
+}
+
+.sagic img{
+    border-radius: 5px;
+}
+
+::selection{
+    color: gold;
+}
+
+.solic a{
+    color: white;
+    text-decoration: none;
+}
+
+
+ .dikcbk{
+    height: 50px;
+    width: 0;
+    border: 1px solid #b99891;
+ }
+
+ .sosyal{
+    display: flex;
+    gap: 30%;
+ }
+
+ .sosyal a:hover{
+    text-shadow: 1px 1px 1px wheat;
+}
+
+@media screen and (max-width:1000px){
+    main{
+        height: 70%;
+    }
+    .sosyal{
+        margin-right: 10%;
+    }
+
+    .sol{
+        border:none;
+    }
+    .sagic img{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:600px){
+    main{
+        height: 50%;
+    }
+
+    nav{
+        display:list-item;
+        padding-left: 30%;
+        height: 250px;
+        background-color:#374467;
+        padding-top: 100px;
+    }
+
+    .dikcbk{
+        height: 0px;
+        width: 155px;
+        border: 1px solid #b99891;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .sosyal{
+        gap: 5%;
+    }
+
+    
+}
+
+
+
+ 

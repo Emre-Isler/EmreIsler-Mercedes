@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hr1, #hr2, #hr3{
+    height: 1px;
+    background-color: #b99891
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* header bölümü */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+}
+
+.farimg{
+    margin: auto;
+}
+
+.farimg img{
+    border-radius: 50%;
+    height: 220px;
+}
+
+/* main bölümü */
+main{
+    margin-bottom: 100px;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 3%;
+    padding: 100px;
+}
+
+.satilik_arac{
+    height: 400px;
+    width: 300px;
+    border: 1px solid lightgray;
+}
+
+.satilik_arac img{
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+footer{
+    padding-top: 10px;
+    height: auto;
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+footer .container ul li{
+    margin-bottom: 10px;
+}
+
+
+footer .container ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.containeralt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 20%;
+    gap: 40px;
+}
+
+.enalt{
+    margin-top: 10px;
+
+ }
+ 
+.enalt a{
+     color: #b99891;
+     text-decoration: none;
+ }
+
+ .dikcbk{
+    height: 50px;
+    width: 0;
+    border: 1px solid #b99891;
+ }
+
+ .sosyal{
+    display: flex;
+    gap: 30%;
+ }
+
+ @media screen and (max-width:1200px){
+    .grid-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .container{
+        grid-template-columns: repeat(4,2fr);
+    }
+    
+}
+
+@media screen and (max-width:1000px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    main{
+        margin-bottom: 300px;
+    }
+    .container{
+        margin-left: 10%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .containeralt{
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    main{
+        margin-bottom: 1550px;
+    }
+    .container{
+        margin-left: 10%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .containeralt{
+        gap: 30px;
+    }
+    .sosyal{
+        gap: 10%;
+    }
+}
+ 

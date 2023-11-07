@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_yenikon.css">
+    <link rel="icon" href="./img/mercedes.ico" type="image/x-icon">
+    <title>Mercedes-Benz Konfigürasyon</title>
+</head>
+<body>
+    <h3 style="color: white; background-color: black;">ATTENTION! THIS IS A TEST PROJECT</h3>
+    
+    <header>
+        <div id="far" class="farimg"><a href="./mainback.html"><img src="./img/3mk.gif" alt=""></a></div>
+    </header>
+
+    <div id="hr1"></div>
+
+    <nav id="nv">
+        <div>
+            <a href="#" onclick="c_goster()"><h1>C-Klasse</h1></a>
+            <select id="cklas" onchange="secim_c()" class="renk_sec">
+                <option >Seç</option>
+                <option value="siyah">Siyah</option>
+                <option value="krmz">Kırmızı</option>
+                <option value="mavi">Mavi</option>
+                <option value="gri">Gri</option>
+            </select>
+        </div>
+        <div>
+            <a href="#" onclick="e_goster()"><h1>E-Klasse</h1></a>
+            <select id="eklas" onchange="secim_e()" class="renk_sec">
+                <option>Seç</option>
+                <option >Siyah</option>
+                <option >Mavi</option>
+                <option >Yeşil</option>
+                <option disabled>Gri</option>
+            </select>
+        </div>
+        <div>
+            <a href="#" onclick="glc_goster()"><h1>GLC</h1></a>
+            <select id="glc" onchange="secim_glc()" class="renk_sec">
+                <option>Seç</option>
+                <option disabled>Siyah</option>
+                <option>Kırmızı</option>
+                <option>Mavi</option>
+                <option disabled>Gri</option>
+            </select>
+        </div>
+        <div>
+            <a href="#" onclick="gle_goster()"><h1>GLE</h1></a>
+            <select id="gle" class="renk_sec">
+                <option>Seç</option>
+                <option>Gri</option>
+                <option disabled>Siyah</option>
+                <option disabled>Kırmızı</option>
+                <option disabled>Mavi</option>
+            </select>
+        </div>
+    </nav>
+
+    <div id="hr2"></div>
+
+    <main>
+    
+        <div class="c-klas">
+            <img id="cklas_syh" src="./img/c-klass.png" alt="">
+        </div>
+
+        <div class="c-klas">
+            <img id="cklas_krmz" src="./img/c-klask.png" alt="">
+        </div>
+
+        <div class="c-klas">
+            <img id="cklas_gri" src="./img/c-klasg.png" alt="">
+        </div>
+
+        <div class="c-klas">
+            <img id="cklas_mavi" src="./img/c-klasb.png" alt="">
+        </div>
+
+
+        <div class="e-klas">
+            <img id="eklas_syh" src="./img/e-klass.png" alt="">
+        </div>
+
+        <div class="e-klas">
+            <img id="eklas_mavi" src="./img/e-klasb.png" alt="">
+        </div>
+
+        <div class="e-klas">
+            <img id="eklas_ysl" src="./img/e-klasy.png" alt="">
+        </div>
+
+        <div class="mglc">
+            <img id="mglc_mavi" src="./img/glcm.png" alt="">
+        </div>
+
+        <div class="mglc">
+            <img id="mglc_krmz" src="./img/glck.png" alt="">
+        </div>
+
+        <div class="mgle">
+            <img id="mgle_gri" src="./img/gleg.png" alt="">
+        </div>
+
+
+    
+    </main>
+    <div id="maybch">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/J7LueobArWw?si=mLM0HtTk4pS7y12i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    
+
+    <footer id="ftr">
+        <div class="container">
+            <div>
+                <ul>
+                    <li><a href="#"><b>Satın almak</b></a></li>
+                    <li><a href="#">Sertifikalı İkinci El Arabalar</a></li>
+                    <li><a href="#">Yeni araba stokunu görüntüleyin</a></li>
+                    <li><a href="#">Devam Eden Eylemler</a></li>
+                    <li><a href="#">Yapılandırıcı</a></li>
+                    <li><a href="#">Tüm modeller</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="#"><b>Satın alma tavsiyesi</b></a></li>
+                    <li><a href="#">Müşteri iletişim merkezi</a></li>
+                    <li><a href="#">Test sürüşü rezervasyonu yapın</a></li>
+                    <li><a href="#">Bir bayi bulun</a></li>
+                    <li><a href="#">Yapılandırıcı</a></li>
+                    <li><a href="#">İş çözümleri</a></li>
+                    <li><a href="#">Mercedes-Benz B2B Bağlantısı</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="#"><b>Hizmetler</b></a></li>
+                    <li><a href="#">Atölye randevusu alın</a></li>
+                    <li><a href="#">Kaza veya arıza durumunda yardım</a></li>
+                    <li><a href="#">Orijinal aksesuarlar</a></li>
+                    <li><a href="#">Hatırlamalar</a></li>
+                    <li><a href="#">Kılavuzlar</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="#"><b>Teknoloji</b></a></li>
+                    <li><a href="#">E-hareketlilik</a></li>
+                    <li><a href="#">Çekmeceler ve Duvar Kutusu</a></li>
+                    <li><a href="#">Mercedes me connect Mağazası</a></li>
+            </div>
+        </div>
+        <br>
+        <div id="hr3"></div>
+
+        <div class="containeralt">
+            <div class="enalt">
+                <a href="./iletisim.html"><h2>İletişim</h2></a>
+            </div>
+
+            <div class="dikcbk"></div>
+
+            <div class="sosyal">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2xl" style="color: #b99891;"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #b99891;"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter fa-2xl" style="color: #b99891;"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #b99891;"></i></a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script>
+        function secim_c() {
+        let sec = document.getElementById("cklas").value;
+        if(sec=="siyah")
+        {
+            document.getElementById("cklas_syh").style.visibility = "visible";
+            document.getElementById("cklas_krmz").style.visibility = "hidden";
+            document.getElementById("cklas_gri").style.visibility = "hidden";
+            document.getElementById("cklas_mavi").style.visibility = "hidden";
+        }
+        if(sec=="krmz")
+        {
+            document.getElementById("cklas_krmz").style.visibility = "visible";
+            document.getElementById("cklas_syh").style.visibility = "hidden";
+            document.getElementById("cklas_gri").style.visibility = "hidden";
+            document.getElementById("cklas_mavi").style.visibility = "hidden";
+        }
+        if(sec=="gri")
+        {
+            document.getElementById("cklas_krmz").style.visibility = "hidden";
+            document.getElementById("cklas_syh").style.visibility = "hidden";
+            document.getElementById("cklas_gri").style.visibility = "visible";
+            document.getElementById("cklas_mavi").style.visibility = "hidden";
+        }
+        if(sec=="mavi")
+        {
+            document.getElementById("cklas_krmz").style.visibility = "hidden";
+            document.getElementById("cklas_syh").style.visibility = "hidden";
+            document.getElementById("cklas_gri").style.visibility = "hidden";
+            document.getElementById("cklas_mavi").style.visibility = "visible";
+        }
+        console.log(sec);
+        }
+
+        function secim_e() {
+        let sec = document.getElementById("eklas").value;
+        if(sec=="Siyah")
+        {
+            document.getElementById("eklas_syh").style.visibility = "visible";
+            document.getElementById("eklas_mavi").style.visibility = "hidden";
+            document.getElementById("eklas_ysl").style.visibility = "hidden";
+        }
+        if(sec=="Mavi")
+        {
+            document.getElementById("eklas_syh").style.visibility = "hidden";
+            document.getElementById("eklas_mavi").style.visibility = "visible";
+            document.getElementById("eklas_ysl").style.visibility = "hidden";
+        }
+        if(sec=="Yeşil")
+        {
+            document.getElementById("eklas_syh").style.visibility = "hidden";
+            document.getElementById("eklas_mavi").style.visibility = "hidden";
+            document.getElementById("eklas_ysl").style.visibility = "visible";
+        }
+        console.log(sec);
+        }
+
+        function secim_glc() {
+        let sec = document.getElementById("glc").value;
+        if(sec=="Mavi")
+        {
+            document.getElementById("mglc_mavi").style.visibility = "visible";
+            document.getElementById("mglc_krmz").style.visibility = "hidden";
+        }
+        if(sec=="Kırmızı")
+        {
+            document.getElementById("mglc_mavi").style.visibility = "hidden";
+            document.getElementById("mglc_krmz").style.visibility = "visible";
+
+        }
+        
+        console.log(sec);
+        }
+
+        function c_goster(){
+            document.getElementById("cklas").style.visibility = "visible";
+            document.getElementById("eklas").style.visibility = "hidden";
+            document.getElementById("glc").style.visibility = "hidden";
+            document.getElementById("gle").style.visibility = "hidden";
+            
+            document.getElementById("cklas_mavi").style.visibility = "visible";
+            document.getElementById("eklas_syh").style.visibility = "hidden";
+            document.getElementById("eklas_mavi").style.visibility = "hidden";
+            document.getElementById("eklas_ysl").style.visibility = "hidden";
+            document.getElementById("mglc_mavi").style.visibility = "hidden";
+            document.getElementById("mglc_krmz").style.visibility = "hidden";
+
+            document.getElementById("mgle_gri").style.visibility = "hidden";
+
+        }
+        function e_goster(){
+            document.getElementById("cklas").style.visibility = "hidden";
+            document.getElementById("eklas").style.visibility = "visible";
+            document.getElementById("glc").style.visibility = "hidden";
+            document.getElementById("gle").style.visibility = "hidden";
+
+            document.getElementById("eklas_syh").style.visibility = "visible";
+
+            document.getElementById("cklas_krmz").style.visibility = "hidden";
+            document.getElementById("cklas_syh").style.visibility = "hidden";
+            document.getElementById("cklas_gri").style.visibility = "hidden";
+            document.getElementById("cklas_mavi").style.visibility = "hidden";
+
+            document.getElementById("mglc_mavi").style.visibility = "hidden";
+            document.getElementById("mglc_krmz").style.visibility = "hidden";
+
+            document.getElementById("mgle_gri").style.visibility = "hidden";
+            
+        }
+        function glc_goster(){
+            document.getElementById("cklas").style.visibility = "hidden";
+            document.getElementById("eklas").style.visibility = "hidden";
+            document.getElementById("glc").style.visibility = "visible";
+            document.getElementById("gle").style.visibility = "hidden";
+
+            document.getElementById("mglc_krmz").style.visibility = "visible";
+            document.getElementById("mgle_gri").style.visibility = "hidden";
+
+
+        }
+        function gle_goster(){
+            document.getElementById("cklas").style.visibility = "hidden";
+            document.getElementById("eklas").style.visibility = "hidden";
+            document.getElementById("glc").style.visibility = "hidden";
+            document.getElementById("gle").style.visibility = "visible";
+
+            document.getElementById("mgle_gri").style.visibility = "visible";
+
+            document.getElementById("cklas_krmz").style.visibility = "hidden";
+            document.getElementById("cklas_syh").style.visibility = "hidden";
+            document.getElementById("cklas_gri").style.visibility = "hidden";
+            document.getElementById("cklas_mavi").style.visibility = "hidden";
+            document.getElementById("eklas_syh").style.visibility = "hidden";
+            document.getElementById("eklas_mavi").style.visibility = "hidden";
+            document.getElementById("eklas_ysl").style.visibility = "hidden";
+            document.getElementById("mglc_mavi").style.visibility = "hidden";
+            document.getElementById("mglc_krmz").style.visibility = "hidden";
+        }
+    </script>
+
+<script src="https://kit.fontawesome.com/9a17a42e92.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
